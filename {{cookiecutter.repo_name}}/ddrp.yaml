@@ -1,10 +1,10 @@
 papers:
   - {{cookiecutter.init_paper}}:
     folder: "papers/{{cookiecutter.init_paper}}"
-    text_width: 
-    text_height: 
+    text_width_pt: 
+    text_height_pt: 
     columns: 
-    column_width: 
+    column_width_pt: 
 figure_setup:
   
 
