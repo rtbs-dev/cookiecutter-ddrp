@@ -1,5 +1,6 @@
 {
-    "repo_name": "my_paper",
+    "repo_name": "my_project",
     "author": "",
+    "init_paper": "paper1",
     "dependencies_file": ["environment.yml", "requirements.txt"]
 }
