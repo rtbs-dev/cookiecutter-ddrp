@@ -1,0 +1,5 @@
+{
+    "repo_name": "my_paper",
+    "author": "",
+    "dependencies_file": ["environment.yml", "requirements.txt"]
+}
