@@ -1,10 +1,14 @@
 papers:
-  - {{cookiecutter.init_paper}}:
-    folder: "papers/{{cookiecutter.init_paper}}"
+  - folder: "{{cookiecutter.init_paper}}"
     text_width_pt: 
     text_height_pt: 
     columns: 
     column_width_pt: 
 figure_setup:
-  
+  label_size: 8
+  font_size: 8
+  ticks_size: 6
+  axis_lw: 0.6
+  plot_lw: 1.5
+
 
