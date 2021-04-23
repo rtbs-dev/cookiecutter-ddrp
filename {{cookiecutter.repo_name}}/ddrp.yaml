@@ -1,10 +1,14 @@
 papers:
-  - {{cookiecutter.init_paper}}:
+  {{cookiecutter.init_paper}}:
     folder: "papers/{{cookiecutter.init_paper}}"
-    text_width_pt: 
-    text_height_pt: 
-    columns: 
-    column_width_pt: 
-figure_setup:
+    width: 
+    height: 
+    columns: 1 
+    column_width: 
+    fig_settings:
+      dpi: 300
+      font_family: 'serif'
+fig_settings:
+  font_family: 'sans'
   
 

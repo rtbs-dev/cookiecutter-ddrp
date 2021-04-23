@@ -8,18 +8,16 @@ channels:
 dependencies:
   - python=3.8
   - pandas
-  - numpy
-  - matplotlib
   - seaborn
   - ipykernel
   - pip
   - pip:
+    - dvc
     - ddr-p
 {%- elif cookiecutter.dependencies_file == "requirements.txt" -%}
 pandas
-numpy
-matplotlib
 seaborn
 ipykernel
 ddr-p
+dvc
 {% endif %}
